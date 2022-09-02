@@ -1,11 +1,12 @@
 {
   "name": "gerenciamentoroteadores",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "vue-cli serve",
-    "build": "vue-cli build",
-    "lint": "vue-cli lint"
+    "start": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.26.0",
@@ -17,8 +18,7 @@
     "macaddress": "^0.5.3",
     "maska": "^1.5.0",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.12",
-    "@vue/cli-service": "~5.0.0"
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
